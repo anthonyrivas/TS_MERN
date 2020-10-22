@@ -1,0 +1,28 @@
+/*
+===============
+Footer
+===============
+*/
+.footer {
+    background: #222;
+    display: grid;
+    height: 9rem;
+    place-items: center;
+    text-align: center;
+
+    h4 {
+        color: $off-white;
+        font-weight: normal;
+        margin-top: 0.5rem;
+        text-transform: uppercase;
+
+        span {
+            color: $purple;
+            padding: 0 1rem;
+        }
+
+        .footer-links {
+            margin: 0 auto 1rem auto;
+        }
+    }
+}
